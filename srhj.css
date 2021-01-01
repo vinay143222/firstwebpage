@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    background-color: black;
+}
+
+#header-1 {
+    color: white;
+}
+
+#header-2 {
+    color: white;
+}
+
+.line {
+    height: 8px;
+    background-color: aqua;
+}
+
+.about {
+    background-color: black;
+    color: white;
+}
+
+.line-small {
+    background-color: aqua;
+    height: 8px;
+    width: 100px;
+}
+
+.img-carousel {
+    width: 100%;
+}
+
+.img-create {
+    max-width: 400px;
+    max-height: 300px;
+    border: 6px solid aqua;
+    border-radius: 3px;
+}
+
+.features {
+    background-color: black;
+    color: white;
+}
+
+.img-create-1 {
+    max-height: 600px;
+    max-width: 500px;
+    border: 3px solid aqua;
+    border-radius: 3px;
+}
+
+.conatct {
+    background-color: black;
+    color: white;
+}
+
+#fab {
+    font-size: 60px;
+    margin-top: 15px;
+    color: red;
+}
+
+.counter-section {
+    background-image: url("https://image.freepik.com/free-vector/web-design-background_1300-38.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#id-footer {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.footer {
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10px;
+}
+
+.fab {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+@media(max-width:575.98px) {
+    .img-create-1 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:.98) and( min-width:) {
+    #home h1 {
+        margin-top: 20px;
+    }
+}
+
+.carousel-control-next-icon {
+    font-size: 30px;
+    background-color: black;
+    height: 150px;
+    width: 110px;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+    height: 150px;
+    width: 110px;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fal {
+    font-size: 60px;
+}
+
+.actives {
+    border-bottom: 8px solid red;
+}
